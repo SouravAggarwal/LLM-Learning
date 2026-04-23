@@ -1,0 +1,207 @@
+# ============================================================================
+# .gitignore for LLM-Learning Repository
+# ============================================================================
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Python
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Virtual Environments
+# ──────────────────────────────────────────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Conda
+*.conda
+conda-meta/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Jupyter Notebook
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Checkpoint files (auto-saved copies of notebooks)
+.ipynb_checkpoints/
+
+# Jupyter runtime files
+*.ipynb_output/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# IDE / Editor
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, IntelliJ)
+.idea/
+
+# Cursor
+.cursor/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ──────────────────────────────────────────────────────────────────────────────
+# OS Generated Files
+# ──────────────────────────────────────────────────────────────────────────────
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Secrets & API Keys
+# ──────────────────────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Model Files & Large Data (keep repo lightweight)
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Model weights & checkpoints (can be very large)
+*.bin
+*.safetensors
+*.gguf
+*.ggml
+*.pt
+*.pth
+*.h5
+*.onnx
+*.tflite
+
+# Serialized data
+*.pkl
+*.pickle
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector database storage
+chroma_db/
+chromadb/
+qdrant_storage/
+faiss_index/
+vector_store/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Logs & Temporary Files
+# ──────────────────────────────────────────────────────────────────────────────
+*.log
+logs/
+tmp/
+temp/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Docker
+# ──────────────────────────────────────────────────────────────────────────────
+docker-compose.override.yml
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Terraform
+# ──────────────────────────────────────────────────────────────────────────────
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Node.js (for any frontend work)
+# ──────────────────────────────────────────────────────────────────────────────
+node_modules/
+package-lock.json
+yarn.lock
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Miscellaneous
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Compiled output
+*.o
+*.obj
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
